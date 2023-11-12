@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 227, 227);
+    width: 30vw;
+    max-height: 100%;
+}
+h2 {
+    margin-left: 35px;
+    font-family: Apple Chancery, cursive;
+    color: rgb(27, 126, 201);
+}
+h1{
+    margin: 25px;
+    font-size: 400%;
+    font-family: Apple Chancery, cursive;
+    color: rgb(27, 126, 201);
+    text-align: center;
+}
+.paragrapheNav{
+    margin: 10px;
+    font-family: Apple Chancery, cursive;
+    color: rgb(27, 126, 201);
+}
+.lien{
+    font-family: Apple Chancery, cursive;
+    font-size: 80%;
+    color: rgb(27, 126, 201);
+    text-decoration: none;
+}
+ul{
+    color: rgb(27, 126, 201);
+}
+
+
+header{
+    background-color: rgb(227, 227, 227);
+    width: 85vw;
+    min-height: 15vh;
+}
+
+article{
+    margin: 30px;
+    background-color: rgb(227, 227, 227);
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+article.article1{
+    background-color:rgb(27, 126, 201);;
+}
+
+article.article2{
+    min-height: 10vh;
+    background-color:rgb(27, 126, 201); ;
+}
+
+article.article3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+.moulinet{
+    width: 35vw;
+    height: 60vh;
+}
+
+.paragrapheArticle1{
+    margin: 30px;
+    font-family: Apple Chancery, cursive;
+    color: whitesmoke;
+}
+.paragrapheArticle2{
+    margin: 30px;
+    font-family: Apple Chancery, cursive;
+    color: whitesmoke;
+}
+
+
+footer{
+    background-color: rgb(227, 227, 227);
+    width: 85vw;
+    min-height: 15vh;
+}
+
+div.b{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+div.c{
+    display: flex;
+}
+
+div.d{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 10vw;
+    height: 20vh;
+    margin: 10px;
+}
+
+/* RESPONSIVE DESIGN*/
+@media screen and (max-width: 700px){
+    .c{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-device-width: 480px){
+    nav{
+        display: none;
+    }
+
+    header{
+        width: 100vw;
+        min-height: 10vh;
+    }
+
+    footer{
+        width: 100vw;
+        min-height: 10vh;
+    }
+}
+/* FIN RESPONSIVE DESIGN*/
